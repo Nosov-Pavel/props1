@@ -5,6 +5,11 @@ function Phones(props){
         <div>
             Component Phones {props.phoneN} {props.phoneN2}
 
+            <hr/>
+
+            Name: {props.person.name}
+            <hr/>
+
         </div>
     );
 }
