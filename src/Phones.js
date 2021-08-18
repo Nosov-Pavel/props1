@@ -9,6 +9,7 @@ function Phones(props){
 
             Name: {props.person.name}
             <hr/>
+            Phone: {props.person.phone}
 
         </div>
     );
