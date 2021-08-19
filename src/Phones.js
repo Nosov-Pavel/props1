@@ -1,3 +1,5 @@
+import CallBack from "./CallBack";
+
 function Phones(props){
 
     console.log(props)
@@ -10,6 +12,11 @@ function Phones(props){
             Name: {props.person.name}
             <hr/>
             Phone: {props.person.phone}
+            <hr/>
+            Zip: {props.person.address.zip}
+
+            <hr/>
+            <CallBack/>
 
         </div>
     );
