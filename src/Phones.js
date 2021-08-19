@@ -16,7 +16,7 @@ function Phones(props){
             Zip: {props.person.address.zip}
 
             <hr/>
-            <CallBack/>
+            <CallBack phone={props.person.phone}/>
 
         </div>
     );

@@ -1,6 +1,6 @@
 function CallBack(props){
     return(
-        <div></div>
+        <div>{props.phone}</div>
 
     );
 }
