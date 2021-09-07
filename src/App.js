@@ -35,16 +35,19 @@ import Contacts from "./Contacts";
 function App(){
     const mainMenu = ['Contacts', 'Chats', 'Settings']
     const contacts = [{
+        id: 1,
         name: 'Alis',
         phoneNumber: +13213435,
         address: 'New York'
     },
         {
+        id: 2,
         name: 'Bob',
         phoneNumber: +13213436,
         address: 'Miami',
     },
         {
+        id: 3,
         name: 'Rob',
         phoneNumber: +13213437,
         address: 'Orlando',

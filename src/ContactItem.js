@@ -21,6 +21,8 @@ function ContactItem(props){
             {props.contact.name}<br/>
             {props.contact.phoneNumber}<br/>
             {props.contact.address}<br/>
+            <button onClick={()=>console.log(props.contact.name)}>Delete</button>
+            <button onClick={()=>console.log(props.contact.name)}>Add</button>
 
         </div>
     );
